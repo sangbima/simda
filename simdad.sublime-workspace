@@ -1,0 +1,1462 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"name",
+				"nameCoa"
+			],
+			[
+				"query",
+				"queryName"
+			],
+			[
+				"find",
+				"findOne"
+			],
+			[
+				"parent",
+				"parent_id"
+			],
+			[
+				"debit",
+				"debitAmount"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"coa",
+				"coaType"
+			],
+			[
+				"curr",
+				"currency"
+			],
+			[
+				"data",
+				"dataProvider"
+			],
+			[
+				"wid",
+				"widget"
+			],
+			[
+				"coat",
+				"coatype"
+			],
+			[
+				"unitChar",
+				"unitCharge"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"me",
+				"meterNumber"
+			],
+			[
+				"meter",
+				"meter_number"
+			],
+			[
+				"searc",
+				"searchModel"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"code",
+				"code3"
+			],
+			[
+				"nex",
+				"nextCode"
+			],
+			[
+				"max",
+				"max"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"paren",
+				"parentCode"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"d1",
+				"d1_out"
+			],
+			[
+				"year",
+				"yearNow"
+			],
+			[
+				"getU",
+				"getUnitCharge"
+			],
+			[
+				"unit_meter",
+				"unit_meter_id"
+			],
+			[
+				"Meter",
+				"MeterRead"
+			],
+			[
+				"metern",
+				"metername"
+			],
+			[
+				"A",
+				"A1"
+			],
+			[
+				"obj",
+				"objPHPExcel"
+			],
+			[
+				"foo",
+				"foos"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"mpdf",
+				"mpdf"
+			],
+			[
+				"highestC",
+				"highestColumn"
+			],
+			[
+				"iss",
+				"isset"
+			],
+			[
+				"UnitCharge",
+				"UnitChargeValue"
+			],
+			[
+				"mter",
+				"meterNumber"
+			],
+			[
+				"unit",
+				"unitMeter"
+			],
+			[
+				"ele",
+				"electricity"
+			],
+			[
+				"mete",
+				"meterNumber"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"unitM",
+				"unitMeter"
+			],
+			[
+				"count",
+				"count"
+			],
+			[
+				"uni",
+				"unitMeter"
+			],
+			[
+				"mee",
+				"meterNumber"
+			],
+			[
+				"meterN",
+				"meterNumber"
+			],
+			[
+				"elec",
+				"electricity"
+			],
+			[
+				"person",
+				"person_id"
+			],
+			[
+				"Unit",
+				"UnitType"
+			],
+			[
+				"Person",
+				"Person"
+			],
+			[
+				"perso",
+				"person_code"
+			],
+			[
+				"conti",
+				"continue"
+			],
+			[
+				"exis",
+				"existCode"
+			],
+			[
+				"pers",
+				"person"
+			],
+			[
+				"per",
+				"person"
+			],
+			[
+				"save",
+				"save"
+			],
+			[
+				"upload",
+				"uploadunit"
+			],
+			[
+				"define",
+				"defineFolder"
+			],
+			[
+				"Defin",
+				"defineFolder"
+			],
+			[
+				"pos",
+				"posted"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"da",
+				"dataExp"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"row",
+				"rowData"
+			],
+			[
+				"high",
+				"highestColumn"
+			],
+			[
+				"Upl",
+				"UploadedFile"
+			],
+			[
+				"Up",
+				"UploadFile"
+			],
+			[
+				"oldFile",
+				"oldFile"
+			],
+			[
+				"pass",
+				"password_reset_token"
+			],
+			[
+				"model",
+				"modeluser"
+			],
+			[
+				"load",
+				"loadedPost"
+			],
+			[
+				"old",
+				"oldFile"
+			],
+			[
+				"getImage",
+				"getImageFile"
+			],
+			[
+				"gl",
+				"glyphicon"
+			],
+			[
+				"strot",
+				"strtotime"
+			],
+			[
+				"att",
+				"attribute"
+			],
+			[
+				"strr",
+				"strrpos"
+			],
+			[
+				"STATU",
+				"STATUS_NONACTIVE"
+			],
+			[
+				"STAT",
+				"STATUS_DELETED"
+			],
+			[
+				"STA",
+				"STATUS_NONACTIVE"
+			],
+			[
+				"STATUS",
+				"STATUS_DELETED"
+			],
+			[
+				"ba",
+				"backend"
+			],
+			[
+				"vard",
+				"var_dump"
+			],
+			[
+				"dc",
+				"dcCheck"
+			],
+			[
+				"TYPE",
+				"TYPE_DEBIT"
+			],
+			[
+				"T",
+				"TYPE_DEBIT"
+			],
+			[
+				"Perso",
+				"PersonAddress"
+			],
+			[
+				"deta",
+				"detail_owner"
+			],
+			[
+				"detail",
+				"detail_person"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"to",
+				"to_date"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"Date",
+				"DatePicker"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"S",
+				"STATUS_DRAFT"
+			],
+			[
+				"gr",
+				"gridColumns"
+			],
+			[
+				"mode",
+				"model"
+			],
+			[
+				"tex",
+				"textInput"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"Md",
+				"modelJurnalChild"
+			],
+			[
+				"delete",
+				"deleteIDs"
+			],
+			[
+				"class",
+				"classname"
+			],
+			[
+				"Junr",
+				"JurnalChild"
+			],
+			[
+				"create",
+				"createMultiple"
+			],
+			[
+				"Model",
+				"modelJurnalChild"
+			],
+			[
+				"btn-",
+				"btn-primary"
+			],
+			[
+				"JurnalC",
+				"JurnalChild"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"j",
+				"json_decode"
+			],
+			[
+				"choi",
+				"choices"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"Coa",
+				"CoaType"
+			],
+			[
+				"mdoel",
+				"modelAttribute"
+			],
+			[
+				"join",
+				"joinWith"
+			],
+			[
+				"valida",
+				"validate"
+			],
+			[
+				"SORT_",
+				"SORT_ASC"
+			],
+			[
+				"table",
+				"tableName"
+			],
+			[
+				"tabl",
+				"tableName"
+			],
+			[
+				"jso",
+				"json_decode"
+			],
+			[
+				"exce",
+				"execute"
+			],
+			[
+				"EVENT",
+				"EVENT_BEFORE_INSERT"
+			],
+			[
+				"auth",
+				"author"
+			],
+			[
+				"new",
+				"new_date_format"
+			],
+			[
+				"user",
+				"userid"
+			],
+			[
+				"gender",
+				"gender_id"
+			],
+			[
+				"redire",
+				"redirect"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/AppAsset.php",
+			"settings":
+			{
+				"buffer_size": 797,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/web.php",
+			"settings":
+			{
+				"buffer_size": 2269,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/layouts/main.php",
+			"settings":
+			{
+				"buffer_size": 5654,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/css/style.css",
+			"settings":
+			{
+				"buffer_size": 25,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "web/js/script.js",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 184.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"Package Control: install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 446.0
+	},
+	"console":
+	{
+		"height": 201.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/simdad",
+		"/C/wamp64/www/simdad/web",
+		"/C/wamp64/www/simdad/web/css",
+		"/C/wamp64/www/simdad/web/js"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/simdad/web/css/roboto.css",
+		"/C/wamp64/www/simdad/web/css/material-icons.css",
+		"/C/wamp64/www/simdad/web/css/site.css",
+		"/C/wamp64/www/simdad/web/css/style.css",
+		"/C/wamp64/www/simdad/views/layouts/main.php",
+		"/C/wamp64/www/simdad/config/web.php",
+		"/C/wamp64/www/simdad/assets/AppAsset.php",
+		"/C/wamp64/www/simdad/views/layouts.1/main.php",
+		"/C/wamp64/www/simdad/web/css/mdb.css",
+		"/C/wamp64/www/simdad/web/css/mdb.min.css",
+		"/C/wamp64/www/simdad/views/layouts.bak/main.php",
+		"/C/wamp64/www/bms/backend/controllers/BankController.php",
+		"/C/wamp64/www/bms/common/config/main-local.php",
+		"/C/Users/Khairil/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Khairil/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/wamp64/www/bms/rbac.txt",
+		"/C/wamp64/www/bms/backend/models/UploadFile.php",
+		"/C/wamp64/www/bms/backend/models/ProfileUser.php",
+		"/C/wamp64/www/bms/backend/views/profile/_form.php",
+		"/C/Users/Khairil/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/wamp64/www/bms/backend/models/sftp-config.json",
+		"/C/wamp64/www/bms/backend/views/profile/create.php",
+		"/C/wamp64/www/bms/backend/controllers/ProfileController.php",
+		"/C/wamp64/www/bms/common/models/RecordHelpers.php",
+		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/config/main.php",
+		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/config/params.php",
+		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/config/params-local.php",
+		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/views/profile/view.php",
+		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/views/layouts/sidebar.php",
+		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/models/UploadFile.php",
+		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/controllers/ProfileController.php",
+		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/controllers/CoaController.php",
+		"/C/wamp/www/yii7/backend/views/start-balance/index.php",
+		"/C/wamp/www/yii7/backend/views/start-balance/_form.php",
+		"/C/wamp/www/yii7/backend/models/ReportTrialBalanceSearch.2.php",
+		"/C/wamp/www/yii7/backend/models/ReportTrialBalanceSearch.php",
+		"/C/wamp/www/yii7/backend/views/coa/index.php",
+		"/C/wamp/www/yii7/backend/controllers/StartBalanceController.php",
+		"/C/wamp/www/yii7/backend/models/Coa.php",
+		"/C/wamp/www/yii7/backend/controllers/UnitChargeController.php",
+		"/C/wamp/www/yii7/backend/controllers/InvoiceController.php",
+		"/C/wamp/www/yii7/backend/views/invoice/_invoiceFile.php",
+		"/C/wamp/www/yii7/backend/models/ReportTrialBalanceSearch.1.php",
+		"/C/wamp/www/yii7/backend/models/CoaSearch.php",
+		"/C/wamp/www/yii7/backend/views/start-balance/_form.1.php",
+		"/C/wamp/www/yii7/backend/views/start-balance/test.php",
+		"/C/wamp/www/yii7/backend/web/css/site.css",
+		"/C/wamp/www/yii7/backend/views/report-trial-balance/index.php",
+		"/C/wamp/www/yii7/backend/models/ReportTrialBalance.php",
+		"/C/wamp/www/yii7/backend/controllers/ReportTrialBalanceController.php",
+		"/C/wamp/www/yii7/backend/controllers/JurnalController.php",
+		"/C/wamp/www/yii7/backend/models/JurnalChild.php",
+		"/C/wamp/www/yii7/backend/views/start-balance/update.php",
+		"/C/wamp/www/yii7/backend/views/start-balance/create.php",
+		"/C/wamp/www/yii7/backend/models/Jurnal.php",
+		"/C/wamp/www/yii7/backend/views/building/index.php",
+		"/C/wamp/www/yii7/backend/views/report-balance/create.php",
+		"/C/wamp/www/yii7/backend/views/coa/create.php",
+		"/C/wamp/www/yii7/backend/views/coa/_form.php",
+		"/C/wamp/www/yii7/backend/controllers/CoaController.php",
+		"/C/wamp/www/yii7/backend/models/Model.php",
+		"/C/wamp/www/yii7/backend/views/coa/_formuploadcoa.php",
+		"/C/wamp/www/yii7/backend/models/JurnalChild.1.php",
+		"/C/wamp/www/yii7/frontend/views/layouts/main.php",
+		"/C/wamp/www/yii7/backend/views/unit-charge-value/datavalue.php",
+		"/C/wamp/www/yii7/backend/controllers/UnitChargeValueController.php",
+		"/C/wamp/www/yii7/backend/controllers/ReportLedgerController.php",
+		"/C/wamp/www/yii7/backend/models/ReportLedgerSearch.php",
+		"/C/wamp/www/yii7/backend/controllers/BankController.php",
+		"/C/wamp/www/yii7/backend/views/report-ledger/create.php",
+		"/C/wamp/www/yii7/backend/views/report-ledger/_form.php",
+		"/C/wamp/www/yii7/backend/views/report-ledger/index.php",
+		"/C/wamp/www/yii7/backend/views/jurnal/index.php",
+		"/C/wamp/www/yii7/backend/views/report-trial-balance/_search.php",
+		"/C/wamp/www/yii7/backend/views/report-trial-balance/index.2.php",
+		"/C/wamp/www/yii7/backend/models/JurnalSearch.php",
+		"/C/wamp/www/yii7/backend/views/jurnal/_search.php",
+		"/C/wamp/www/yii7/backend/models/JurnalChildSearch.php",
+		"/C/wamp/www/yii7/common/config/main.php",
+		"/C/wamp/www/yii7/backend/config/main.php",
+		"/C/wamp/www/yii7/backend/views/report-trial-balance/index.1.php",
+		"/C/wamp/www/yii7/backend/views/report-trial-balance/index.bak.php",
+		"/C/wamp/www/yii7/backend/views/building/view.php",
+		"/C/wamp/www/yii7/backend/views/unit/view.php",
+		"/C/wamp/www/yii7/backend/views/tariff/view.php",
+		"/C/wamp/www/yii7/backend/views/staff/view.php",
+		"/C/wamp/www/yii7/backend/views/property-only/view.php",
+		"/C/wamp/www/yii7/backend/views/profile/view.php",
+		"/C/wamp/www/yii7/backend/views/bank/view.php",
+		"/C/wamp/www/yii7/backend/views/coa/view.php",
+		"/C/wamp/www/yii7/backend/views/employee/view.php",
+		"/C/wamp/www/yii7/backend/views/jurnal/view.php",
+		"/C/wamp/www/yii7/backend/views/person/view.php",
+		"/C/wamp/www/yii7/backend/config/params.php",
+		"/C/wamp/www/yii7/common/config/params.php",
+		"/C/wamp/www/yii7/backend/controllers/UnitController.php",
+		"/C/wamp/www/yii7/vendor/yiisoft/yii2/grid/GridView.php",
+		"/C/wamp/www/yii7/vendor/kartik-v/yii2-grid/EditableColumn.php",
+		"/C/wamp/www/yii7/composer.json",
+		"/C/wamp/www/yii7/composer.lock",
+		"/C/wamp/www/yii7/vendor/kartik-v/yii2-export/ExportMenu.php",
+		"/C/wamp/www/yii7/vendor/kartik-v/yii2-grid/controllers/ExportController.php",
+		"/C/wamp/www/yii7/backend/config/main-local.php",
+		"/C/wamp/www/yii7/backend/views/report-trial-balance.2/index.php",
+		"/C/wamp/www/yii7/common/config/main-local.php",
+		"/C/wamp/www/yii7/backend/models/ReportTrialBalance.2.php",
+		"/C/wamp/www/yii7/sftp-config.json",
+		"/C/wamp/www/yii6/common/models/RecordHelpers.php",
+		"/C/wamp/www/yii6/common/models/SetupdateHelpers.php",
+		"/C/wamp/www/yii6/backend/models/Coa.php",
+		"/C/wamp/www/yii6/backend/models/Property.php",
+		"/C/wamp/www/yii6/backend/models/Person.php",
+		"/C/wamp/www/yii6/backend/config/main.php",
+		"/C/wamp/www/yii6/backend/views/layouts/main.php",
+		"/C/wamp/www/yii6/backend/controllers/DashboardController.php",
+		"/C/wamp/www/yii6/backend/controllers/CoaController.php",
+		"/C/wamp/www/yii6/backend/models/ReportLedgerSearch.php",
+		"/C/wamp/www/yii6/backend/models/CoaSearch.php",
+		"/C/wamp/www/yii6/backend/controllers/StaffController.php",
+		"/C/wamp/www/yii6/backend/views/staff/create.php",
+		"/C/wamp/www/yii6/backend/views/staff/index.php",
+		"/C/wamp/www/yii6/backend/models/UseraddForm.php",
+		"/C/wamp/www/yii6/backend/views/staff/_changepassform.php",
+		"/C/wamp/www/yii6/backend/views/staff/_form.php",
+		"/C/wamp/www/yii6/backend/models/UserSearch.php",
+		"/C/wamp/www/yii6/backend/models/User.php",
+		"/C/wamp/www/yii6/backend/views/jurnal/_form.php",
+		"/C/wamp/www/yii6/backend/views/site/login.php"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#slidemenu",
+			"slidemenu",
+			"aseet",
+			"dark",
+			"#0275d8",
+			"btn-opening-balance",
+			"strong",
+			"type",
+			"jurnalChildren",
+			"colspan=\"3\"",
+			"yii2-composer",
+			"yiisoft",
+			"format",
+			"dashbo",
+			"dashboard",
+			"javas",
+			"autouserid",
+			"change",
+			"id_coa",
+			"coa",
+			"id_coa",
+			"$sql",
+			"dataUnit",
+			"type",
+			"unit",
+			"type",
+			"create",
+			"month",
+			"jur",
+			"inde",
+			"$i",
+			"$queryMeter",
+			"$rowData[0][7]",
+			"not",
+			"ownerl",
+			"owner",
+			"sign",
+			"app",
+			"address",
+			"building",
+			"admin",
+			"alexa",
+			"avata",
+			"avatar",
+			"common",
+			"$title",
+			"user",
+			"dashboard",
+			"validate",
+			"uploadPath",
+			"pict",
+			"name",
+			"avatar",
+			"file",
+			"date",
+			"fullname",
+			"status",
+			"parent",
+			"initSelect2Loading",
+			"status",
+			"app.js",
+			"Gender",
+			"/Gender",
+			"bread",
+			"parentName",
+			"kredi",
+			"kredit",
+			"genderList",
+			"if( Yii::$app->user->can('createPost'))\n        {\n            $model = new Post();\n\n            if ($model->load(Yii::$app->request->post()) && $model->save()) {\n                return $this->redirect(['view', 'id' => $model->id]);\n            } else {\n                return $this->render('create', [\n                    'model' => $model,\n                ]);\n            }\n        } else \n        {\n            throw new ForbiddenHttpException('You are not allowed to access this page');\n            \n        }    ",
+			"endcontent",
+			"username",
+			"profile",
+			"bread",
+			"gender",
+			"permissionh",
+			"rbac",
+			"sign out",
+			"jui",
+			"this",
+			"logout",
+			"tab_h",
+			"tab_si",
+			"tab",
+			"dist",
+			"table"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#w0-collapse",
+			"w0-collapse",
+			"data"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/AppAsset.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 797,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								564,
+								564
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1786,
+								1878
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/layouts/main.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								623,
+								836
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2078.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "web/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "web/js/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": -0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 69.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 173.0
+	},
+	"pinned_build_system": "",
+	"project": "simdad.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sele",
+				"vendor\\kartik-v\\yii2-widget-select2\\Select2.php"
+			],
+			[
+				"datepic",
+				"vendor\\kartik-v\\yii2-widget-datepicker\\DatePicker.php"
+			],
+			[
+				"date",
+				"vendor\\kartik-v\\yii2-widget-datepicker\\DatePicker.php"
+			],
+			[
+				"migrat",
+				"vendor\\yiisoft\\yii2\\db\\Migration.php"
+			],
+			[
+				"rbac/ini",
+				"vendor\\yiisoft\\yii2\\rbac\\migrations\\m140506_102106_rbac_init.php"
+			],
+			[
+				"rbac/migra",
+				"vendor\\yiisoft\\yii2\\rbac\\migrations\\schema-pgsql.sql"
+			],
+			[
+				"rbac/d",
+				"vendor\\yiisoft\\yii2\\rbac\\DbManager.php"
+			],
+			[
+				"apps",
+				"backend\\assets\\AppAsset.php"
+			],
+			[
+				"config/app",
+				"config\\app.php"
+			],
+			[
+				"contro",
+				"app\\Http\\Controllers\\Controller.php"
+			],
+			[
+				"route",
+				"app\\Http\\routes.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
