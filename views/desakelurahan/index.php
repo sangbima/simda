@@ -7,32 +7,45 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\DesakelurahanSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Desakelurahans';
+$this->title = 'Desa/Kelurahan';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="desakelurahan-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
-    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
-
     <p>
-        <?= Html::a('Create Desakelurahan', ['create'], ['class' => 'btn btn-raised btn-success']) ?>
+        <?= Html::a('<i class="fa fa-plus" aria-hidden="true"></i> Desa/Kelurahan', ['create'], ['class' => 'btn btn-raised btn-success']) ?>
     </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
+        'pager' => [
+            'firstPageLabel' => '<span class="glyphicon glyphicon-fast-backward"></span>',
+            'lastPageLabel' => '<span class="glyphicon glyphicon-fast-forward"></span>',
+            'prevPageLabel' => '<span class="glyphicon glyphicon-chevron-left"></span>',
+            'nextPageLabel' => '<span class="glyphicon glyphicon-chevron-right"></span>',
+        ],
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
-            'created_at',
-            'updated_at',
-            'user_id',
-            'kecamatan_id',
-            // 'code',
-            // 'name',
-            // 'type',
-
+            'code',
+            'name',
+            'type',
+            [
+                'attribute'=>'kecamatan_id',
+                'label'=>'Kecamatan',
+                'value'=>'kecamatan.name',
+            ],
+            [
+                'attribute'=>'kecamatan_id',
+                'label'=>'Kabupaten/Kota',
+                'value'=>'kecamatan.kabupatenkota.name',
+            ],
+            [
+                'attribute'=>'kecamatan_id',
+                'label'=>'Provinsi',
+                'value'=>'kecamatan.kabupatenkota.province.name',
+            ],
+            
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>

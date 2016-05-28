@@ -11,15 +11,21 @@ use app\models\ContactForm;
 
 class SiteController extends Controller
 {
+    
+    /**
+     * @inheritdoc
+     */
     public function behaviors()
     {
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout'],
                 'rules' => [
                     [
-                        'actions' => ['logout'],
+                        'actions' => ['login', 'error'],
+                        'allow' => true,
+                    ],
+                    [
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -49,7 +55,50 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-        return $this->render('index');
+        $modelAnnouncement = \app\models\Announcement::find()->orderBy(['id' => SORT_DESC])->limit(2)->all();
+        
+        $countKiba = \app\models\BatchKiba::find()->sum('quantity');
+        $countKibb = \app\models\BatchKibb::find()->sum('quantity');
+        $countKibc = \app\models\BatchKibc::find()->sum('quantity');
+        $countKibd = \app\models\BatchKibd::find()->sum('quantity');
+        $countKibe = \app\models\BatchKibe::find()->sum('quantity');
+        $countKibf = \app\models\BatchKibf::find()->sum('quantity');
+        $countProvince = \app\models\Province::find()->count();
+        $countKabupatenkota = \app\models\Kabupatenkota::find()->count();
+        $countKecamatan = \app\models\Kecamatan::find()->count();
+        $countDesakelurahan = \app\models\Desakelurahan::find()->count();
+        $countGovMain = \app\models\GovMain::find()->count();
+        $countGovUser = \app\models\GovUser::find()->count();
+        $countGovPrivilege = \app\models\GovPrivilege::find()->count();
+        $countUser = \app\models\User::find()->count();
+        $countProductType = \app\models\ProductType::find()->count();
+        $countProductArea = \app\models\ProductArea::find()->count();
+        $countProductGroup = \app\models\ProductGroup::find()->count();
+        $countProductGroupSub1 = \app\models\ProductGroupSub1::find()->count();
+        $countProductGroupSub2 = \app\models\ProductGroupSub2::find()->count();
+
+        return $this->render('index', [
+            'announcements' => $modelAnnouncement,
+            'countKiba' => $countKiba,
+            'countKibb' => $countKibb,
+            'countKibc' => $countKibc,
+            'countKibd' => $countKibd,
+            'countKibe' => $countKibe,
+            'countKibf' => $countKibf,
+            'countProvince' => $countProvince,
+            'countKabupatenkota' => $countKabupatenkota,
+            'countKecamatan' => $countKecamatan,
+            'countDesakelurahan' => $countDesakelurahan,
+            'countGovMain' => $countGovMain,
+            'countGovUser' => $countGovUser,
+            'countGovPrivilege' => $countGovPrivilege,
+            'countUser' => $countUser,
+            'countProductType' => $countProductType,
+            'countProductArea' => $countProductArea,
+            'countProductGroup' => $countProductGroup,
+            'countProductGroupSub1' => $countProductGroupSub1,
+            'countProductGroupSub2' => $countProductGroupSub2,
+        ]);
     }
 
     public function actionLogin()

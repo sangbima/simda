@@ -8,6 +8,9 @@ use app\models\KabupatenkotaSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\helpers\Json;
+use yii\helpers\ArrayHelper;
+use yii\filters\AccessControl;
 
 /**
  * KabupatenkotaController implements the CRUD actions for Kabupatenkota model.
@@ -20,10 +23,19 @@ class KabupatenkotaController extends Controller
     public function behaviors()
     {
         return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'rules' => [
+                    [
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                ],
+            ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
-                    'delete' => ['POST'],
+                    'delete' => ['post'],
                 ],
             ],
         ];
@@ -68,6 +80,7 @@ class KabupatenkotaController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
+            $model->type = 'Kabupaten';
             return $this->render('create', [
                 'model' => $model,
             ]);
@@ -105,6 +118,55 @@ class KabupatenkotaController extends Controller
 
         return $this->redirect(['index']);
     }
+
+    public function actionGetCodeProvince($id)
+    {
+        $provinceSelected = \app\models\Province::findOne($id);
+        $number = $this->autoNumber($id);
+
+        \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+
+        return [
+            'province' => $provinceSelected,
+            'nextnumber' => $number,
+        ];
+    }
+
+    protected function autoNumber($id)
+    {
+        $model = Kabupatenkota::find()->select('code')->where(['province_id' => $id])->orderBy(['id' => SORT_DESC])->one();
+        // kode = 00.00
+        
+        if(empty($model->code)) {
+            $newCode = sprintf("%02d", 0 + 1);    
+        } else {
+            $oldCode = explode('.', $model->code);
+            $code = end($oldCode);
+            $newCode = sprintf("%02d", $code + 1);
+        }
+        
+        return $newCode;
+    }
+
+    // public function actionKabupatenkotaList($q = null, $id = null)
+    // {
+    //     \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+    //     $out = ['results' => ['id' => '', 'text' => '']];
+    //     if (!is_null($q)) {
+    //         $query = new \yii\db\Query;
+    //         $query->select('id, name AS text')
+    //             ->from('kabupatenkota')
+    //             ->where(['like', 'name', $q])
+    //             ->limit(20);
+    //         $command = $query->createCommand();
+    //         $data = $command->queryAll();
+    //         $out['results'] = array_values($data);
+    //     }
+    //     elseif ($id > 0) {
+    //         $out['results'] = ['id' => $id, 'text' => Kabupatenkota::find($id)->name];
+    //     }
+    //     return $out;
+    // }
 
     /**
      * Finds the Kabupatenkota model based on its primary key value.

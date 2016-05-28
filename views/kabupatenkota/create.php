@@ -10,9 +10,7 @@ $this->title = 'Tambah Kabupaten Kota';
 $this->params['breadcrumbs'][] = ['label' => 'Kabupaten Kota', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="kabupatenkota-create">
-
-    <h1><?= Html::encode($this->title) ?></h1>
+<div class="container kabupatenkota-create">
 
     <?= $this->render('_form', [
         'model' => $model,

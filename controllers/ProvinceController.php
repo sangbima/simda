@@ -8,6 +8,7 @@ use app\models\ProvinceSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\filters\AccessControl;
 
 /**
  * ProvinceController implements the CRUD actions for Province model.
@@ -20,10 +21,19 @@ class ProvinceController extends Controller
     public function behaviors()
     {
         return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'rules' => [
+                    [
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                ],
+            ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
-                    'delete' => ['POST'],
+                    'delete' => ['post'],
                 ],
             ],
         ];
@@ -68,12 +78,8 @@ class ProvinceController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
-            if($model->code === '') {
-                $model->code = '00';    
-            } else {
-                $model->code = $this->autoNumber();
-            }
-            
+            $model->code = $this->autoNumber();
+                        
             return $this->render('create', [
                 'model' => $model,
             ]);
@@ -112,6 +118,39 @@ class ProvinceController extends Controller
         return $this->redirect(['index']);
     }
 
+    protected function autoNumber()
+    {
+        $model = Province::find()->select('code')->orderBy(['id' => SORT_DESC])->one();
+        
+        if(empty($model->code)) {
+            $newCode = sprintf("%02d", 0 + 1);    
+        } else {
+            $newCode = sprintf("%02d", $model->code + 1);
+        }
+        
+        return $newCode;
+    }
+
+    public function actionProvinceList($q = null, $id = null)
+    {
+        \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+        $out = ['results' => ['id' => '', 'text' => '']];
+        if (!is_null($q)) {
+            $query = new \yii\db\Query;
+            $query->select('id, name AS text')
+                ->from('province')
+                ->where(['like', 'name', $q])
+                ->limit(20);
+            $command = $query->createCommand();
+            $data = $command->queryAll();
+            $out['results'] = array_values($data);
+        }
+        elseif ($id > 0) {
+            $out['results'] = ['id' => $id, 'text' => Province::find($id)->name];
+        }
+        return $out;
+    }
+
     /**
      * Finds the Province model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
@@ -126,13 +165,5 @@ class ProvinceController extends Controller
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
         }
-    }
-
-    protected function autoNumber()
-    {
-        $model = Province::find()->select('code')->orderBy(['id' => SORT_DESC])->one();
-        
-        $newCode = sprintf("%02d", $model->code + 1);
-        return $newCode;
     }
 }

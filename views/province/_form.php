@@ -10,17 +10,26 @@ use yii\widgets\MaskedInput;
 ?>
 
 <div class="province-form">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-default">
+                <div class="panel-heading"><i class="fa fa-plus"></i> Provinsi</div>
+                <div class="panel-body">
+                
+                    <?php $form = ActiveForm::begin(); ?>
+                    
+                    <?= $form->field($model, 'code')->textInput(['maxlength' => true]) ?>
 
-    <?php $form = ActiveForm::begin(); ?>
+                    <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'code')->textInput(['maxlength' => true]) ?>
+                    <div class="form-group">
+                    <?= Html::submitButton($model->isNewRecord ? '<i class="fa fa-floppy-o" aria-hidden="true"></i> Simpan' : '<i class="fa fa-pencil-square-o" aria-hidden="true"></i> Ubah', ['class' => $model->isNewRecord ? 'btn btn-raised btn-success' : 'btn btn-raised btn-primary']) ?>
+                    </div>
 
-    <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
+                    <?php ActiveForm::end(); ?>
 
-    <div class="form-group">
-        <?= Html::submitButton($model->isNewRecord ? '<i class="material-icons">save</i> Simpan' : '<i class="material-icons">mode_edit</i> Ubah', ['class' => $model->isNewRecord ? 'btn btn-raised btn-success' : 'btn btn-raised btn-primary']) ?>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <?php ActiveForm::end(); ?>
-
 </div>

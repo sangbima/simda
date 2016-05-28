@@ -12,26 +12,29 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="kabupatenkota-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
-    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
-
     <p>
-        <?= Html::a('<i class="material-icons">add</i> Kabupaten Kota', ['create'], ['class' => 'btn btn-raised btn-success']) ?>
+        <?= Html::a('<i class="fa fa-plus" aria-hidden="true"></i> Kabupaten Kota', ['create'], ['class' => 'btn btn-raised btn-success']) ?>
     </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
+        'pager' => [
+            'firstPageLabel' => '<span class="glyphicon glyphicon-fast-backward"></span>',
+            'lastPageLabel' => '<span class="glyphicon glyphicon-fast-forward"></span>',
+            'prevPageLabel' => '<span class="glyphicon glyphicon-chevron-left"></span>',
+            'nextPageLabel' => '<span class="glyphicon glyphicon-chevron-right"></span>',
+        ],
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
+            'code',
+            'name',
+            'type',
             [
                 'attribute' => 'province_id',
                 'label' => 'Provinsi',
                 'value' => 'province.name'
             ],
-            'code',
-            'name',
-            'type',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

@@ -4,6 +4,234 @@
 		"selected_items":
 		[
 			[
+				"strt",
+				"strtotime"
+			],
+			[
+				"procure",
+				"procure_date"
+			],
+			[
+				"procu",
+				"product_group_sub2_id"
+			],
+			[
+				"new",
+				"newCode"
+			],
+			[
+				"gov",
+				"gov_unit_id"
+			],
+			[
+				"code",
+				"code_main"
+			],
+			[
+				"code_",
+				"code_main"
+			],
+			[
+				"read",
+				"readonly"
+			],
+			[
+				"des",
+				"desakelurahan_id"
+			],
+			[
+				"Kabup",
+				"Kabupaten"
+			],
+			[
+				"model",
+				"modelGovPrivilege"
+			],
+			[
+				"gov_",
+				"gov_privilege_id"
+			],
+			[
+				"data",
+				"dataAll"
+			],
+			[
+				"publih",
+				"publish_end"
+			],
+			[
+				"kecamata",
+				"kecamatan_id"
+			],
+			[
+				"kabuap",
+				"kabupatenkota_id"
+			],
+			[
+				"product_",
+				"product_group_id"
+			],
+			[
+				"product",
+				"product_type_id"
+			],
+			[
+				"prod",
+				"product_area_id"
+			],
+			[
+				"produ",
+				"product_type_id"
+			],
+			[
+				"modelProd",
+				"modelProductGroup"
+			],
+			[
+				"Produc",
+				"ProductGroup"
+			],
+			[
+				"produc",
+				"product_area_id"
+			],
+			[
+				"Product",
+				"ProductArea"
+			],
+			[
+				"clas",
+				"classname"
+			],
+			[
+				"B",
+				"Barang"
+			],
+			[
+				"Prod",
+				"ProductArea"
+			],
+			[
+				"publis",
+				"publish_start"
+			],
+			[
+				"publish",
+				"publish_end"
+			],
+			[
+				"select",
+				"selected"
+			],
+			[
+				"kabupa",
+				"kabupatenkota_id"
+			],
+			[
+				"kabupaten",
+				"kabupatenkota_id"
+			],
+			[
+				"kecama",
+				"kecamatan-kabupatenkota_id"
+			],
+			[
+				"option",
+				"options"
+			],
+			[
+				"Kabupa",
+				"Kabupatenkota"
+			],
+			[
+				"initial",
+				"initialValue"
+			],
+			[
+				"initi",
+				"initialValue"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"provinc",
+				"province"
+			],
+			[
+				"provin",
+				"province_id"
+			],
+			[
+				"province",
+				"province-list"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"pass",
+				"password_reset_token"
+			],
+			[
+				"passw",
+				"password_reset_token"
+			],
+			[
+				"valida",
+				"validatePassword"
+			],
+			[
+				"ST",
+				"STATUS_ACTIVE"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"auth",
+				"auth_key"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"form-",
+				"form-group"
+			],
+			[
+				"fiel",
+				"fieldConfig"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
 				"name",
 				"nameCoa"
 			],
@@ -36,10 +264,6 @@
 				"currency"
 			],
 			[
-				"data",
-				"dataProvider"
-			],
-			[
 				"wid",
 				"widget"
 			],
@@ -68,24 +292,12 @@
 				"searchModel"
 			],
 			[
-				"var",
-				"var_dump"
-			],
-			[
-				"code",
-				"code3"
-			],
-			[
 				"nex",
 				"nextCode"
 			],
 			[
 				"max",
 				"max"
-			],
-			[
-				"req",
-				"request"
 			],
 			[
 				"paren",
@@ -280,14 +492,6 @@
 				"oldFile"
 			],
 			[
-				"pass",
-				"password_reset_token"
-			],
-			[
-				"model",
-				"modeluser"
-			],
-			[
 				"load",
 				"loadedPost"
 			],
@@ -310,253 +514,41 @@
 			[
 				"att",
 				"attribute"
-			],
-			[
-				"strr",
-				"strrpos"
-			],
-			[
-				"STATU",
-				"STATUS_NONACTIVE"
-			],
-			[
-				"STAT",
-				"STATUS_DELETED"
-			],
-			[
-				"STA",
-				"STATUS_NONACTIVE"
-			],
-			[
-				"STATUS",
-				"STATUS_DELETED"
-			],
-			[
-				"ba",
-				"backend"
-			],
-			[
-				"vard",
-				"var_dump"
-			],
-			[
-				"dc",
-				"dcCheck"
-			],
-			[
-				"TYPE",
-				"TYPE_DEBIT"
-			],
-			[
-				"T",
-				"TYPE_DEBIT"
-			],
-			[
-				"Perso",
-				"PersonAddress"
-			],
-			[
-				"deta",
-				"detail_owner"
-			],
-			[
-				"detail",
-				"detail_person"
-			],
-			[
-				"strto",
-				"strtotime"
-			],
-			[
-				"to",
-				"to_date"
-			],
-			[
-				"desc",
-				"description"
-			],
-			[
-				"Date",
-				"DatePicker"
-			],
-			[
-				"clas",
-				"className"
-			],
-			[
-				"sta",
-				"status"
-			],
-			[
-				"S",
-				"STATUS_DRAFT"
-			],
-			[
-				"gr",
-				"gridColumns"
-			],
-			[
-				"mode",
-				"model"
-			],
-			[
-				"tex",
-				"textInput"
-			],
-			[
-				"th",
-				"th	Tag"
-			],
-			[
-				"Md",
-				"modelJurnalChild"
-			],
-			[
-				"delete",
-				"deleteIDs"
-			],
-			[
-				"class",
-				"classname"
-			],
-			[
-				"Junr",
-				"JurnalChild"
-			],
-			[
-				"create",
-				"createMultiple"
-			],
-			[
-				"Model",
-				"modelJurnalChild"
-			],
-			[
-				"btn-",
-				"btn-primary"
-			],
-			[
-				"JurnalC",
-				"JurnalChild"
-			],
-			[
-				"json",
-				"json_encode"
-			],
-			[
-				"j",
-				"json_decode"
-			],
-			[
-				"choi",
-				"choices"
-			],
-			[
-				"op",
-				"option	Tag"
-			],
-			[
-				"Coa",
-				"CoaType"
-			],
-			[
-				"mdoel",
-				"modelAttribute"
-			],
-			[
-				"join",
-				"joinWith"
-			],
-			[
-				"valida",
-				"validate"
-			],
-			[
-				"SORT_",
-				"SORT_ASC"
-			],
-			[
-				"table",
-				"tableName"
-			],
-			[
-				"tabl",
-				"tableName"
-			],
-			[
-				"jso",
-				"json_decode"
-			],
-			[
-				"exce",
-				"execute"
-			],
-			[
-				"EVENT",
-				"EVENT_BEFORE_INSERT"
-			],
-			[
-				"auth",
-				"author"
-			],
-			[
-				"new",
-				"new_date_format"
-			],
-			[
-				"user",
-				"userid"
-			],
-			[
-				"gender",
-				"gender_id"
-			],
-			[
-				"redire",
-				"redirect"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "assets/AppAsset.php",
+			"file": "models/BatchKibb.php",
 			"settings":
 			{
-				"buffer_size": 797,
+				"buffer_size": 11544,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "config/web.php",
+			"file": "controllers/BatchKibbController.php",
 			"settings":
 			{
-				"buffer_size": 2269,
+				"buffer_size": 9153,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "views/layouts/main.php",
+			"file": "views/batch-kibb/_form.php",
 			"settings":
 			{
-				"buffer_size": 5654,
+				"buffer_size": 18471,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "web/css/style.css",
+			"file": "controllers/BatchKibaController.php",
 			"settings":
 			{
-				"buffer_size": 25,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "web/js/script.js",
-			"settings":
-			{
-				"buffer_size": 58,
-				"line_ending": "Windows"
+				"buffer_size": 10376,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -610,144 +602,154 @@
 	"expanded_folders":
 	[
 		"/C/wamp64/www/simdad",
-		"/C/wamp64/www/simdad/web",
-		"/C/wamp64/www/simdad/web/css",
-		"/C/wamp64/www/simdad/web/js"
+		"/C/wamp64/www/simdad/controllers",
+		"/C/wamp64/www/simdad/models",
+		"/C/wamp64/www/simdad/vendor/yiisoft",
+		"/C/wamp64/www/simdad/views",
+		"/C/wamp64/www/simdad/views/batch-kiba",
+		"/C/wamp64/www/simdad/views/batch-kibb",
+		"/C/wamp64/www/simdad/views/desakelurahan",
+		"/C/wamp64/www/simdad/views/gov-privilege",
+		"/C/wamp64/www/simdad/views/gov-unit",
+		"/C/wamp64/www/simdad/views/gov-user",
+		"/C/wamp64/www/simdad/views/kabupatenkota",
+		"/C/wamp64/www/simdad/views/kecamatan",
+		"/C/wamp64/www/simdad/views/layouts"
 	],
 	"file_history":
 	[
-		"/C/wamp64/www/simdad/web/css/roboto.css",
-		"/C/wamp64/www/simdad/web/css/material-icons.css",
-		"/C/wamp64/www/simdad/web/css/site.css",
-		"/C/wamp64/www/simdad/web/css/style.css",
+		"/C/wamp64/www/simdad/models/BatchKiba.php",
+		"/C/wamp64/www/simdad/models/ProductGroup.php",
+		"/C/wamp64/www/simdad/controllers/ProductGroupController.php",
+		"/C/wamp64/www/simdad/views/product-group/_form.php",
+		"/C/wamp64/www/simdad/models/ProductGroupSub2.php",
+		"/C/wamp64/www/simdad/controllers/ProductGroupSub2Controller.php",
+		"/C/wamp64/www/simdad/views/product-group-sub2/_form.php",
+		"/C/wamp64/www/simdad/controllers/BatchKibaController.php",
+		"/C/wamp64/www/simdad/controllers/BatchKibbController.php",
+		"/C/wamp64/www/simdad/models/BatchKibb.php",
+		"/C/wamp64/www/simdad/views/batch-kibb/_form.php",
+		"/C/wamp64/www/simdad/controllers/GovUserController.php",
+		"/C/wamp64/www/simdad/views/batch-kiba/_form.php",
+		"/C/wamp64/www/simdad/views/batch-kiba/view.php",
+		"/C/wamp64/www/simdad/views/gov-unit/_form.php",
+		"/C/wamp64/www/simdad/controllers/GovPrivilegeController.php",
+		"/C/wamp64/www/simdad/controllers/GovUnitController.php",
+		"/C/wamp64/www/simdad/controllers/DesakelurahanController.php",
+		"/C/wamp64/www/simdad/controllers/GovMainController.php",
 		"/C/wamp64/www/simdad/views/layouts/main.php",
-		"/C/wamp64/www/simdad/config/web.php",
-		"/C/wamp64/www/simdad/assets/AppAsset.php",
-		"/C/wamp64/www/simdad/views/layouts.1/main.php",
-		"/C/wamp64/www/simdad/web/css/mdb.css",
-		"/C/wamp64/www/simdad/web/css/mdb.min.css",
-		"/C/wamp64/www/simdad/views/layouts.bak/main.php",
-		"/C/wamp64/www/bms/backend/controllers/BankController.php",
-		"/C/wamp64/www/bms/common/config/main-local.php",
-		"/C/Users/Khairil/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/wamp64/www/simdad/controllers/ProductTypeController.php",
+		"/C/wamp64/www/simdad/controllers/ProductAreaController.php",
+		"/C/wamp64/www/simdad/controllers/ProductGroupSub1Controller.php",
+		"/C/wamp64/www/simdad/models/GovUnit.php",
+		"/C/wamp64/www/simdad/views/batch-kiba/index.php",
+		"/C/wamp64/www/simdad/views/batch-kibb/index.php",
+		"/C/wamp64/www/simdad/views/gov-privilege/view.php",
+		"/C/wamp64/www/simdad/views/gov-unit/view.php",
+		"/C/wamp64/www/simdad/views/gov-user/view.php",
+		"/C/wamp64/www/simdad/views/desakelurahan/index.php",
+		"/C/wamp64/www/simdad/views/kabupatenkota/index.php",
+		"/C/wamp64/www/simdad/views/kecamatan/index.php",
+		"/C/wamp64/www/simdad/composer.json",
+		"/C/wamp64/www/simdad/controllers/RoomController.php",
+		"/C/wamp64/www/simdad/controllers/KabupatenkotaController.php",
+		"/C/wamp64/www/simdad/controllers/ProvinceController.php",
+		"/C/wamp64/www/simdad/views/product-group-sub1/_form.php",
+		"/C/wamp64/www/simdad/views/gov-user/_form.php",
+		"/C/wamp64/www/simdad/views/kabupatenkota/_form.php",
+		"/C/wamp64/www/simdad/views/room/_form.php",
+		"/C/wamp64/www/simdad/views/site/login.php",
+		"/C/wamp64/www/simdad/views/desakelurahan/_form.php",
+		"/C/wamp64/www/simdad/views/mutasi/index.php",
+		"/C/wamp64/www/simdad/models/ProductGroupSub2Search.php",
+		"/C/wamp64/www/simdad/views/product-area/index.php",
+		"/C/wamp64/www/simdad/models/Room.php",
+		"/C/wamp64/www/simdad/views/room/index.php",
+		"/C/wamp64/www/simdad/views/product-group/view.php",
+		"/C/wamp64/www/simdad/views/product-area/view.php",
+		"/C/wamp64/www/simdad/views/product-group-sub1/view.php",
+		"/C/wamp64/www/simdad/views/product-group-sub2/view.php",
+		"/C/wamp64/www/simdad/views/room/create.php",
+		"/C/wamp64/www/simdad/views/room/update.php",
+		"/C/wamp64/www/simdad/views/room/view.php",
+		"/C/wamp64/www/simdad/views/procure-type/index.php",
+		"/C/wamp64/www/simdad/views/product-group/index.php",
+		"/C/wamp64/www/simdad/views/product-group-sub1/index.php",
+		"/C/wamp64/www/simdad/views/product-group-sub2/index.php",
+		"/C/wamp64/www/simdad/views/product-type/index.php",
+		"/C/wamp64/www/simdad/views/gov-main/index.php",
+		"/C/wamp64/www/simdad/views/gov-privilege/index.php",
+		"/C/wamp64/www/simdad/views/gov-unit/index.php",
+		"/C/wamp64/www/simdad/views/gov-user/index.php",
+		"/C/wamp64/www/simdad/views/province/index.php",
+		"/C/wamp64/www/simdad/views/announcement/index.php",
+		"/C/wamp64/www/simdad/views/batch-kibc/index.php",
+		"/C/wamp64/www/simdad/views/batch-kibd/index.php",
+		"/C/wamp64/www/simdad/views/batch-kibe/index.php",
+		"/C/wamp64/www/simdad/views/batch-kibf/index.php",
+		"/C/wamp64/www/simdad/models/ProvinceSearch.php",
+		"/C/wamp64/www/simdad/controllers/Websvc8000Controller.php",
 		"/C/Users/Khairil/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/wamp64/www/bms/rbac.txt",
-		"/C/wamp64/www/bms/backend/models/UploadFile.php",
-		"/C/wamp64/www/bms/backend/models/ProfileUser.php",
-		"/C/wamp64/www/bms/backend/views/profile/_form.php",
-		"/C/Users/Khairil/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/wamp64/www/bms/backend/models/sftp-config.json",
-		"/C/wamp64/www/bms/backend/views/profile/create.php",
-		"/C/wamp64/www/bms/backend/controllers/ProfileController.php",
-		"/C/wamp64/www/bms/common/models/RecordHelpers.php",
-		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/config/main.php",
-		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/config/params.php",
-		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/config/params-local.php",
-		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/views/profile/view.php",
-		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/views/layouts/sidebar.php",
-		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/models/UploadFile.php",
-		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/controllers/ProfileController.php",
-		"/C/Bitnami/wampstack-5.6.20-0/apache2/htdocs/yii7/backend/controllers/CoaController.php",
-		"/C/wamp/www/yii7/backend/views/start-balance/index.php",
-		"/C/wamp/www/yii7/backend/views/start-balance/_form.php",
-		"/C/wamp/www/yii7/backend/models/ReportTrialBalanceSearch.2.php",
-		"/C/wamp/www/yii7/backend/models/ReportTrialBalanceSearch.php",
-		"/C/wamp/www/yii7/backend/views/coa/index.php",
-		"/C/wamp/www/yii7/backend/controllers/StartBalanceController.php",
-		"/C/wamp/www/yii7/backend/models/Coa.php",
-		"/C/wamp/www/yii7/backend/controllers/UnitChargeController.php",
-		"/C/wamp/www/yii7/backend/controllers/InvoiceController.php",
-		"/C/wamp/www/yii7/backend/views/invoice/_invoiceFile.php",
-		"/C/wamp/www/yii7/backend/models/ReportTrialBalanceSearch.1.php",
-		"/C/wamp/www/yii7/backend/models/CoaSearch.php",
-		"/C/wamp/www/yii7/backend/views/start-balance/_form.1.php",
-		"/C/wamp/www/yii7/backend/views/start-balance/test.php",
-		"/C/wamp/www/yii7/backend/web/css/site.css",
-		"/C/wamp/www/yii7/backend/views/report-trial-balance/index.php",
-		"/C/wamp/www/yii7/backend/models/ReportTrialBalance.php",
-		"/C/wamp/www/yii7/backend/controllers/ReportTrialBalanceController.php",
-		"/C/wamp/www/yii7/backend/controllers/JurnalController.php",
-		"/C/wamp/www/yii7/backend/models/JurnalChild.php",
-		"/C/wamp/www/yii7/backend/views/start-balance/update.php",
-		"/C/wamp/www/yii7/backend/views/start-balance/create.php",
-		"/C/wamp/www/yii7/backend/models/Jurnal.php",
-		"/C/wamp/www/yii7/backend/views/building/index.php",
-		"/C/wamp/www/yii7/backend/views/report-balance/create.php",
-		"/C/wamp/www/yii7/backend/views/coa/create.php",
-		"/C/wamp/www/yii7/backend/views/coa/_form.php",
-		"/C/wamp/www/yii7/backend/controllers/CoaController.php",
-		"/C/wamp/www/yii7/backend/models/Model.php",
-		"/C/wamp/www/yii7/backend/views/coa/_formuploadcoa.php",
-		"/C/wamp/www/yii7/backend/models/JurnalChild.1.php",
-		"/C/wamp/www/yii7/frontend/views/layouts/main.php",
-		"/C/wamp/www/yii7/backend/views/unit-charge-value/datavalue.php",
-		"/C/wamp/www/yii7/backend/controllers/UnitChargeValueController.php",
-		"/C/wamp/www/yii7/backend/controllers/ReportLedgerController.php",
-		"/C/wamp/www/yii7/backend/models/ReportLedgerSearch.php",
-		"/C/wamp/www/yii7/backend/controllers/BankController.php",
-		"/C/wamp/www/yii7/backend/views/report-ledger/create.php",
-		"/C/wamp/www/yii7/backend/views/report-ledger/_form.php",
-		"/C/wamp/www/yii7/backend/views/report-ledger/index.php",
-		"/C/wamp/www/yii7/backend/views/jurnal/index.php",
-		"/C/wamp/www/yii7/backend/views/report-trial-balance/_search.php",
-		"/C/wamp/www/yii7/backend/views/report-trial-balance/index.2.php",
-		"/C/wamp/www/yii7/backend/models/JurnalSearch.php",
-		"/C/wamp/www/yii7/backend/views/jurnal/_search.php",
-		"/C/wamp/www/yii7/backend/models/JurnalChildSearch.php",
-		"/C/wamp/www/yii7/common/config/main.php",
-		"/C/wamp/www/yii7/backend/config/main.php",
-		"/C/wamp/www/yii7/backend/views/report-trial-balance/index.1.php",
-		"/C/wamp/www/yii7/backend/views/report-trial-balance/index.bak.php",
-		"/C/wamp/www/yii7/backend/views/building/view.php",
-		"/C/wamp/www/yii7/backend/views/unit/view.php",
-		"/C/wamp/www/yii7/backend/views/tariff/view.php",
-		"/C/wamp/www/yii7/backend/views/staff/view.php",
-		"/C/wamp/www/yii7/backend/views/property-only/view.php",
-		"/C/wamp/www/yii7/backend/views/profile/view.php",
-		"/C/wamp/www/yii7/backend/views/bank/view.php",
-		"/C/wamp/www/yii7/backend/views/coa/view.php",
-		"/C/wamp/www/yii7/backend/views/employee/view.php",
-		"/C/wamp/www/yii7/backend/views/jurnal/view.php",
-		"/C/wamp/www/yii7/backend/views/person/view.php",
-		"/C/wamp/www/yii7/backend/config/params.php",
-		"/C/wamp/www/yii7/common/config/params.php",
-		"/C/wamp/www/yii7/backend/controllers/UnitController.php",
-		"/C/wamp/www/yii7/vendor/yiisoft/yii2/grid/GridView.php",
-		"/C/wamp/www/yii7/vendor/kartik-v/yii2-grid/EditableColumn.php",
-		"/C/wamp/www/yii7/composer.json",
-		"/C/wamp/www/yii7/composer.lock",
-		"/C/wamp/www/yii7/vendor/kartik-v/yii2-export/ExportMenu.php",
-		"/C/wamp/www/yii7/vendor/kartik-v/yii2-grid/controllers/ExportController.php",
-		"/C/wamp/www/yii7/backend/config/main-local.php",
-		"/C/wamp/www/yii7/backend/views/report-trial-balance.2/index.php",
-		"/C/wamp/www/yii7/common/config/main-local.php",
-		"/C/wamp/www/yii7/backend/models/ReportTrialBalance.2.php",
-		"/C/wamp/www/yii7/sftp-config.json",
-		"/C/wamp/www/yii6/common/models/RecordHelpers.php",
-		"/C/wamp/www/yii6/common/models/SetupdateHelpers.php",
-		"/C/wamp/www/yii6/backend/models/Coa.php",
-		"/C/wamp/www/yii6/backend/models/Property.php",
-		"/C/wamp/www/yii6/backend/models/Person.php",
-		"/C/wamp/www/yii6/backend/config/main.php",
-		"/C/wamp/www/yii6/backend/views/layouts/main.php",
-		"/C/wamp/www/yii6/backend/controllers/DashboardController.php",
-		"/C/wamp/www/yii6/backend/controllers/CoaController.php",
-		"/C/wamp/www/yii6/backend/models/ReportLedgerSearch.php",
-		"/C/wamp/www/yii6/backend/models/CoaSearch.php",
-		"/C/wamp/www/yii6/backend/controllers/StaffController.php",
-		"/C/wamp/www/yii6/backend/views/staff/create.php",
-		"/C/wamp/www/yii6/backend/views/staff/index.php",
-		"/C/wamp/www/yii6/backend/models/UseraddForm.php",
-		"/C/wamp/www/yii6/backend/views/staff/_changepassform.php",
-		"/C/wamp/www/yii6/backend/views/staff/_form.php",
-		"/C/wamp/www/yii6/backend/models/UserSearch.php",
-		"/C/wamp/www/yii6/backend/models/User.php",
-		"/C/wamp/www/yii6/backend/views/jurnal/_form.php",
-		"/C/wamp/www/yii6/backend/views/site/login.php"
+		"/C/wamp64/www/simdad/models/ProductGroupSub1.php",
+		"/C/wamp64/www/simdad/config/web.php",
+		"/C/wamp64/www/simdad/components/CustomAuth.php",
+		"/C/wamp64/www/simdad/controllers/Websvc8000.php",
+		"/C/wamp64/www/simdad/views/gov-unit/update.php",
+		"/C/wamp64/www/simdad/views/gov-privilege/_form.php",
+		"/C/wamp64/www/simdad/views/gov-unit/create.php",
+		"/C/wamp64/www/simdad/models/GovPrivilege.php",
+		"/C/wamp64/www/simdad/views/kecamatan/_form.php",
+		"/C/wamp64/www/simdad/models/ProductArea.php",
+		"/C/wamp64/www/simdad/views/gov-privilege/create.php",
+		"/C/wamp64/www/simdad/views/gov-privilege/update.php",
+		"/C/wamp64/www/simdad/views/gov-user/create.php",
+		"/C/wamp64/www/simdad/models/GovUser.php",
+		"/C/wamp64/www/simdad/views/gov-user/update.php",
+		"/C/wamp64/www/simdad/models/Desakelurahan.php",
+		"/C/wamp64/www/simdad/views/product-area/_form.php",
+		"/C/wamp64/www/simdad/models/GovMain.php",
+		"/C/wamp64/www/simdad/views/gov-main/update.php",
+		"/C/wamp64/www/simdad/views/gov-main/create.php",
+		"/C/wamp64/www/simdad/views/gov-main/_form.php",
+		"/C/wamp64/www/simdad/views/gov-main/view.php",
+		"/C/wamp64/www/simdad/views/product-type/_form.php",
+		"/C/wamp64/www/simdad/controllers/KecamatanController.php",
+		"/C/wamp64/www/simdad/models/Kecamatan.php",
+		"/C/wamp64/www/simdad/views/province/_form.php",
+		"/C/wamp64/www/simdad/views/procure-type/_form.php",
+		"/C/wamp64/www/simdad/views/product-group-sub2/create.php",
+		"/C/wamp64/www/simdad/models/ProductType.php",
+		"/C/wamp64/www/simdad/models/ProcureType.php",
+		"/C/wamp64/www/simdad/models/Province.php",
+		"/C/wamp64/www/simdad/models/Kabupatenkota.php",
+		"/C/wamp64/www/simdad/views/product-group-sub2/update.php",
+		"/C/wamp64/www/simdad/views/product-group-sub1/create.php",
+		"/C/wamp64/www/simdad/views/product-group-sub1/update.php",
+		"/C/wamp64/www/simdad/views/product-group/create.php",
+		"/C/wamp64/www/simdad/views/product-group/update.php",
+		"/C/wamp64/www/simdad/views/product-area/create.php",
+		"/C/wamp64/www/simdad/views/product-area/update.php",
+		"/C/wamp64/www/simdad/views/product-type/create.php",
+		"/C/wamp64/www/simdad/views/product-type/update.php",
+		"/C/wamp64/www/simdad/views/product-type/view.php",
+		"/C/wamp64/www/simdad/views/procure-type/update.php",
+		"/C/wamp64/www/simdad/views/procure-type/create.php",
+		"/C/wamp64/www/simdad/models/BatchKibc.php",
+		"/C/wamp64/www/simdad/models/BatchKibd.php",
+		"/C/wamp64/www/simdad/models/BatchKibe.php",
+		"/C/wamp64/www/simdad/models/BatchKibf.php",
+		"/C/wamp64/www/simdad/models/Announcement.php",
+		"/C/wamp64/www/simdad/views/announcement/update.php",
+		"/C/wamp64/www/simdad/views/announcement/view.php",
+		"/C/wamp64/www/simdad/views/announcement/create.php",
+		"/C/wamp64/www/simdad/views/desakelurahan/view.php",
+		"/C/wamp64/www/simdad/views/desakelurahan/create.php",
+		"/C/wamp64/www/simdad/views/desakelurahan/update.php",
+		"/C/Users/Khairil/AppData/Local/Temp/scp19621/var/www/html/simdad/views/desakelurahan/_form.php"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -761,6 +763,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"price_capital",
+			"province_id",
+			"array",
+			"materi",
+			"code",
+			"kabupatekota",
+			"auth_to",
 			"#slidemenu",
 			"slidemenu",
 			"aseet",
@@ -866,24 +875,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "assets/AppAsset.php",
+					"file": "models/BatchKibb.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 797,
+						"buffer_size": 11544,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								564,
-								564
+								6436,
+								6448
 							]
 						],
 						"settings":
@@ -891,21 +900,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -916,36 +910,51 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_angle_content"
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
@@ -955,27 +964,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2736.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "config/web.php",
+					"file": "controllers/BatchKibbController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2269,
+						"buffer_size": 9153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1786,
-								1878
+								3794,
+								3794
 							]
 						],
 						"settings":
@@ -983,21 +992,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1008,36 +1002,51 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_angle_content"
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
@@ -1047,120 +1056,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "views/layouts/main.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5654,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								623,
-								836
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2078.0,
+						"translation.y": 1888.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "web/css/style.css",
+					"buffer": 2,
+					"file": "views/batch-kibb/_form.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25,
+						"buffer_size": 18471,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25,
-								25
+								9906,
+								9906
 							]
 						],
 						"settings":
@@ -1168,21 +1084,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1193,64 +1094,81 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_angle_content"
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2616.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "web/js/script.js",
+					"buffer": 3,
+					"file": "controllers/BatchKibaController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 58,
+						"buffer_size": 10376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1843,
+								3525
 							]
 						],
 						"settings":
@@ -1258,21 +1176,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1283,47 +1186,64 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_angle_content"
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": -0.0,
+						"translation.y": 1653.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

@@ -6,13 +6,11 @@ use yii\helpers\Html;
 /* @var $model app\models\Kabupatenkota */
 
 $this->title = 'Ubah Kabupaten Kota: ' . $model->name;
-$this->params['breadcrumbs'][] = ['label' => 'Kabupaten Kotas', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Kabupaten Kota', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->name, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Ubah';
 ?>
-<div class="kabupatenkota-update">
-
-    <h1><?= Html::encode($this->title) ?></h1>
+<div class="container kabupatenkota-update">
 
     <?= $this->render('_form', [
         'model' => $model,

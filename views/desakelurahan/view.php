@@ -7,17 +7,15 @@ use yii\widgets\DetailView;
 /* @var $model app\models\Desakelurahan */
 
 $this->title = $model->name;
-$this->params['breadcrumbs'][] = ['label' => 'Desakelurahans', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Desa/Kelurahan', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="desakelurahan-view">
 
-    <h1><?= Html::encode($this->title) ?></h1>
-
     <p>
-        <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('Delete', ['delete', 'id' => $model->id], [
-            'class' => 'btn btn-danger',
+        <?= Html::a('<i class="fa fa-pencil-square-o" aria-hidden="true"></i> Ubah', ['update', 'id' => $model->id], ['class' => 'btn btn-raised btn-primary']) ?>
+        <?= Html::a('<i class="fa fa-trash" aria-hidden="true"></i> Hapus', ['delete', 'id' => $model->id], [
+            'class' => 'btn btn-raised btn-danger',
             'data' => [
                 'confirm' => 'Are you sure you want to delete this item?',
                 'method' => 'post',
@@ -28,11 +26,21 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
-            'id',
-            'created_at',
-            'updated_at',
-            'user_id',
-            'kecamatan_id',
+            [
+                'attribute'=>'kecamatan_id',
+                'label'=>'Provinsi',
+                'value'=>$model->kecamatan->kabupatenkota->province->name,
+            ],
+            [
+                'attribute'=>'kecamatan_id',
+                'label'=>'Kabupaten/Kota',
+                'value'=>$model->kecamatan->kabupatenkota->name,
+            ],
+            [
+                'attribute'=>'kecamatan_id',
+                'label'=>'Kecamatan',
+                'value'=>$model->kecamatan->name,
+            ],
             'code',
             'name',
             'type',

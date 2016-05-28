@@ -18,6 +18,12 @@ use yii\behaviors\BlameableBehavior;
  * @property string $code
  * @property string $name
  *
+ * @property BatchKiba[] $batchKibas
+ * @property BatchKibb[] $batchKibbs
+ * @property BatchKibc[] $batchKibcs
+ * @property BatchKibd[] $batchKibds
+ * @property BatchKibe[] $batchKibes
+ * @property BatchKibf[] $batchKibfs
  * @property GovPrivilege[] $govPrivileges
  * @property GovUnit[] $govUnits
  * @property GovUser[] $govUsers
@@ -34,15 +40,8 @@ class Province extends \yii\db\ActiveRecord
         return 'province';
     }
 
-    /**
-     * @inheritdoc
-     */
     public function behaviors()
     {
-        /*return [
-            TimestampBehavior::className(),
-        ];*/
-
         return [
             'timestamp' => [
                 'class' => TimestampBehavior::className(),
@@ -72,7 +71,7 @@ class Province extends \yii\db\ActiveRecord
             [['code', 'name'], 'required'],
             [['code'], 'string', 'max' => 50],
             [['name'], 'string', 'max' => 100],
-            [['code'], 'unique', 'targetAttribute' => ['code'], 'message' => 'Your code already exists.'],
+            [['code'], 'unique'],
         ];
     }
 
@@ -86,9 +85,57 @@ class Province extends \yii\db\ActiveRecord
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
             'user_id' => 'User ID',
-            'code' => 'Code',
-            'name' => 'Name',
+            'code' => 'Kode',
+            'name' => 'Nama',
         ];
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBatchKibas()
+    {
+        return $this->hasMany(BatchKiba::className(), ['province_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBatchKibbs()
+    {
+        return $this->hasMany(BatchKibb::className(), ['province_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBatchKibcs()
+    {
+        return $this->hasMany(BatchKibc::className(), ['province_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBatchKibds()
+    {
+        return $this->hasMany(BatchKibd::className(), ['province_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBatchKibes()
+    {
+        return $this->hasMany(BatchKibe::className(), ['province_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBatchKibfs()
+    {
+        return $this->hasMany(BatchKibf::className(), ['province_id' => 'id']);
     }
 
     /**
@@ -129,5 +176,11 @@ class Province extends \yii\db\ActiveRecord
     public function getUsers()
     {
         return $this->hasMany(User::className(), ['province_id' => 'id']);
+    }
+
+    public function getProvinceList()
+    {
+        $data = \app\models\Province::find()->asArray()->all();
+        return ArrayHelper::map($data, 'id', 'name');
     }
 }

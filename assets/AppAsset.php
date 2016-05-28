@@ -22,6 +22,7 @@ class AppAsset extends AssetBundle
         'css/material-icons.css',
         'css/bootstrap-material-design.min.css',
         'css/ripples.min.css',
+        'css/font-awesome.min.css',
         // 'css/site.css',
     ];
     public $js = [

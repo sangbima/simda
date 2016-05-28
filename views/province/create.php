@@ -10,9 +10,7 @@ $this->title = 'Tambah Provinsi';
 $this->params['breadcrumbs'][] = ['label' => 'Provinsi', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="province-create">
-
-    <h1><?= Html::encode($this->title) ?></h1>
+<div class="container province-create">
 
     <?= $this->render('_form', [
         'model' => $model,

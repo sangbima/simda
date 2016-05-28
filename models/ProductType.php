@@ -3,6 +3,10 @@
 namespace app\models;
 
 use Yii;
+use yii\db\ActiveRecord;
+use yii\helpers\ArrayHelper;
+use yii\behaviors\TimestampBehavior;
+use yii\behaviors\BlameableBehavior;
 
 /**
  * This is the model class for table "product_type".
@@ -25,6 +29,26 @@ class ProductType extends \yii\db\ActiveRecord
     public static function tableName()
     {
         return 'product_type';
+    }
+
+    public function behaviors()
+    {
+        return [
+            'timestamp' => [
+                'class' => TimestampBehavior::className(),
+                'attributes' => [
+                    ActiveRecord::EVENT_BEFORE_INSERT => ['created_at', 'updated_at'],
+                    ActiveRecord::EVENT_BEFORE_UPDATE => 'updated_at',
+                ],
+                'value' => function(){ return date('Y-m-d H:i:s'); /* MySql DATETIME */},
+            ],
+            'autouserid' => [
+                'class' => BlameableBehavior::className(),
+                'attributes' => [
+                    ActiveRecord::EVENT_BEFORE_INSERT => ['user_id'],
+                ],
+            ],
+        ];
     }
 
     /**
@@ -53,9 +77,9 @@ class ProductType extends \yii\db\ActiveRecord
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
             'user_id' => 'User ID',
-            'code' => 'Code',
-            'name' => 'Name',
-            'code_acc' => 'Code Acc',
+            'code' => 'Kode',
+            'name' => 'Nama Rekening',
+            'code_acc' => 'Kode Rekening',
         ];
     }
 
@@ -65,5 +89,17 @@ class ProductType extends \yii\db\ActiveRecord
     public function getProductAreas()
     {
         return $this->hasMany(ProductArea::className(), ['product_type_id' => 'id']);
+    }
+
+    public function getProductTypeList()
+    {
+        $datas = ProductType::find()->asArray()->all();
+
+        $dataAll = array();
+        foreach ($datas as $key => $value) {
+            $dataAll[$key] = ['id' => $value['id'], 'name' => $value['code_acc'] .' - '.$value['name']];
+        }
+
+        return $datas ? ArrayHelper::map($dataAll, 'id', 'name') : [];
     }
 }

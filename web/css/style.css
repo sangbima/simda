@@ -3,6 +3,15 @@
 .teal {
   background-color: #009688;
 }
+
+.complementary-color {
+  background-color: #96000E;
+}
+
+.triadic-color {
+  background-color: #007F96;
+}
+
 /*
  * Component: Sidebar
  * ------------------
@@ -61,8 +70,31 @@
   border-color: transparent;
 }
 
+/** FOOTER **/
+/*.footer {
+  display: table-row;
+  height: 1px;
+}*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 /** LOGIN PAGE **/
 .site-login {
-  position: absolute;
-  top: 10%;
+  margin-top: 10%;
+}
+
+/** 48px **/
+.font-size-48 {
+  font-size: 48px !important;
+}
+
+.panel.panel-primary>.panel-heading-complementary {
+  background-color: #96000E;
 }

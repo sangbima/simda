@@ -3,6 +3,10 @@
 namespace app\models;
 
 use Yii;
+use yii\db\ActiveRecord;
+use yii\helpers\ArrayHelper;
+use yii\behaviors\TimestampBehavior;
+use yii\behaviors\BlameableBehavior;
 
 /**
  * This is the model class for table "gov_user".
@@ -48,6 +52,26 @@ class GovUser extends \yii\db\ActiveRecord
         return 'gov_user';
     }
 
+    public function behaviors()
+    {
+        return [
+            'timestamp' => [
+                'class' => TimestampBehavior::className(),
+                'attributes' => [
+                    ActiveRecord::EVENT_BEFORE_INSERT => ['created_at', 'updated_at'],
+                    ActiveRecord::EVENT_BEFORE_UPDATE => 'updated_at',
+                ],
+                'value' => function(){ return date('Y-m-d H:i:s'); /* MySql DATETIME */},
+            ],
+            'autouserid' => [
+                'class' => BlameableBehavior::className(),
+                'attributes' => [
+                    ActiveRecord::EVENT_BEFORE_INSERT => ['user_id'],
+                ],
+            ],
+        ];
+    }
+
     /**
      * @inheritdoc
      */
@@ -81,23 +105,23 @@ class GovUser extends \yii\db\ActiveRecord
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
             'user_id' => 'User ID',
-            'gov_main_id' => 'Gov Main ID',
-            'code' => 'Code',
-            'name' => 'Name',
-            'code_acc' => 'Code Acc',
-            'address' => 'Address',
-            'province_id' => 'Province ID',
-            'kabupatenkota_id' => 'Kabupatenkota ID',
-            'kecamatan_id' => 'Kecamatan ID',
-            'desakelurahan_id' => 'Desakelurahan ID',
-            'postal_code' => 'Postal Code',
-            'phone' => 'Phone',
-            'pic_name' => 'Pic Name',
-            'pic_nip' => 'Pic Nip',
-            'pic_title' => 'Pic Title',
-            'keeper_name' => 'Keeper Name',
-            'keeper_nip' => 'Keeper Nip',
-            'keeper_title' => 'Keeper Title',
+            'gov_main_id' => 'Bidang Pemerintahan',
+            'code' => 'Kode',
+            'name' => 'Nama',
+            'code_acc' => 'Kode Rekening',
+            'address' => 'Alamat',
+            'province_id' => 'Province',
+            'kabupatenkota_id' => 'Kabupaten/Kota',
+            'kecamatan_id' => 'Kecamatan',
+            'desakelurahan_id' => 'Desa/Kelurahan',
+            'postal_code' => 'Kode Pos',
+            'phone' => 'Telp',
+            'pic_name' => 'Nama Penanggung Jawab',
+            'pic_nip' => 'NIP Penanggung Jawab',
+            'pic_title' => 'Jabatan Penanggung Jawab',
+            'keeper_name' => 'Nama Pemelihara',
+            'keeper_nip' => 'NIP Pemelihara',
+            'keeper_title' => 'Jabatan Pemelihara',
             'latitude' => 'Latitude',
             'longitude' => 'Longitude',
         ];
@@ -149,5 +173,41 @@ class GovUser extends \yii\db\ActiveRecord
     public function getProvince()
     {
         return $this->hasOne(Province::className(), ['id' => 'province_id']);
+    }
+
+    public function getGovMainList()
+    {
+        $datas = \app\models\GovMain::find()->asArray()->all();
+
+        $dataAll = array();
+        foreach ($datas as $key => $value) {
+            $dataAll[$key] = ['id' => $value['id'], 'name' => $value['code_acc'] .' - '.$value['name']];
+        }
+
+        return $datas ? ArrayHelper::map($dataAll, 'id', 'name') : [];
+    }
+
+    public function getProvinceList()
+    {
+        $data = \app\models\Province::find()->asArray()->all();
+        return ArrayHelper::map($data, 'id', 'name');
+    }
+
+    public function getAllKabupatenKota()
+    {
+        $data = \app\models\Kabupatenkota::find()->asArray()->all();
+        return ArrayHelper::map($data, 'id', 'name');
+    }
+
+    public function getAllKecamatan()
+    {
+        $data = \app\models\Kecamatan::find()->asArray()->all();
+        return ArrayHelper::map($data, 'id', 'name');
+    }
+
+    public function getAllDesaKelurahan()
+    {
+        $data = \app\models\Desakelurahan::find()->asArray()->all();
+        return ArrayHelper::map($data, 'id', 'name');
     }
 }

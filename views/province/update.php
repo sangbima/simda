@@ -10,9 +10,7 @@ $this->params['breadcrumbs'][] = ['label' => 'Provinsi', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->name, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Ubah';
 ?>
-<div class="province-update">
-
-    <h1><?= Html::encode($this->title) ?></h1>
+<div class="container province-update">
 
     <?= $this->render('_form', [
         'model' => $model,

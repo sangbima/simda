@@ -6,13 +6,11 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Kecamatan */
 
-$this->title = 'Create Kecamatan';
-$this->params['breadcrumbs'][] = ['label' => 'Kecamatans', 'url' => ['index']];
+$this->title = 'Tambah Kecamatan';
+$this->params['breadcrumbs'][] = ['label' => 'Kecamatan', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="kecamatan-create">
-
-    <h1><?= Html::encode($this->title) ?></h1>
+<div class="container kecamatan-create">
 
     <?= $this->render('_form', [
         'model' => $model,

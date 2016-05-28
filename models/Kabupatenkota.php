@@ -20,6 +20,12 @@ use yii\behaviors\BlameableBehavior;
  * @property string $name
  * @property string $type
  *
+ * @property BatchKiba[] $batchKibas
+ * @property BatchKibb[] $batchKibbs
+ * @property BatchKibc[] $batchKibcs
+ * @property BatchKibd[] $batchKibds
+ * @property BatchKibe[] $batchKibes
+ * @property BatchKibf[] $batchKibfs
  * @property GovPrivilege[] $govPrivileges
  * @property GovUnit[] $govUnits
  * @property GovUser[] $govUsers
@@ -37,15 +43,8 @@ class Kabupatenkota extends \yii\db\ActiveRecord
         return 'kabupatenkota';
     }
 
-    /**
-     * @inheritdoc
-     */
     public function behaviors()
     {
-        /*return [
-            TimestampBehavior::className(),
-        ];*/
-
         return [
             'timestamp' => [
                 'class' => TimestampBehavior::className(),
@@ -91,11 +90,59 @@ class Kabupatenkota extends \yii\db\ActiveRecord
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
             'user_id' => 'User ID',
-            'province_id' => 'Province ID',
-            'code' => 'Code',
-            'name' => 'Name',
-            'type' => 'Type',
+            'province_id' => 'Provinsi',
+            'code' => 'Kode',
+            'name' => 'Nama',
+            'type' => 'Tipe',
         ];
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBatchKibas()
+    {
+        return $this->hasMany(BatchKiba::className(), ['kabupatenkota_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBatchKibbs()
+    {
+        return $this->hasMany(BatchKibb::className(), ['kabupatenkota_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBatchKibcs()
+    {
+        return $this->hasMany(BatchKibc::className(), ['kabupatenkota_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBatchKibds()
+    {
+        return $this->hasMany(BatchKibd::className(), ['kabupatenkota_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBatchKibes()
+    {
+        return $this->hasMany(BatchKibe::className(), ['kabupatenkota_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBatchKibfs()
+    {
+        return $this->hasMany(BatchKibf::className(), ['kabupatenkota_id' => 'id']);
     }
 
     /**
@@ -144,5 +191,11 @@ class Kabupatenkota extends \yii\db\ActiveRecord
     public function getUsers()
     {
         return $this->hasMany(User::className(), ['kabupatenkota_id' => 'id']);
+    }
+
+    public function getProvinceList()
+    {
+        $data = \app\models\Province::find()->asArray()->all();
+        return $data ? ArrayHelper::map($data, 'id', 'name') : [];
     }
 }
